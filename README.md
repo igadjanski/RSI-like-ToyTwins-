@@ -39,7 +39,7 @@ Patient level data:
 - METABRIC via cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric
 **Note:** In contrast to TCGA‑GBM, where radiotherapy is standard but not explicitly filtered, the METABRIC subset used here is strictly limited to triple‑negative breast cancers treated with radiotherapy, providing a more homogeneous clinical RT context.
 
-**2D cell lines vs D spheroids/organoids/tumoroids** data: 
+**2D cell lines vs 3D spheroids/organoids/tumoroids** data: 
 From peer-reviewed publications: 
 ---Lena Neufeld et al. ,Microengineered perfusable 3D-bioprinted glioblastoma model for in vivo mimicry of tumor microenvironment.Sci. Adv.7,eabi9119(2021).DOI:[10.1126/sciadv.abi9119]([https://doi.org/10.1126/sciadv.abi9119] & 
 https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE182371 
