@@ -1,2 +1,3 @@
-# RSI-like-ToyTwins-
-Integration concept: disease and culture type change the gene‑based radiosensitivity score, which is then mapped into TumorTwin’s α,β to simulate individualized RT responses
+# RSI-like-ToyTwins
+RSI‑like scores are computed with a single pipeline implemented in 01_compute_RSI_like_TCGA_GBM_and_METABRIC.py. 
+The script: loads gene × sample matrices, restricts to the 10 canonical RSI genes, ranks genes within each sample, applies a linear RSIlike function (currently mean rank; optionally the published RSI coefficients), normalizes to S and maps to α,β. Outputs are written as _RSI_like_summary.csv (per‑sample RSI_like, RSI_norm, S, α,β) and _RSI_like_gene_ranks.csv (per‑gene ranks) plus a combined RSI_like_alpha_beta_all_cohorts.csv used for plots and TumorTwin‑toy inputs
